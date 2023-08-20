@@ -1,0 +1,671 @@
+2023-08-18 18:40:08,972 - INFO - autoreload - 6895 - 4345574912 - autoreload.py - Watching for file changes with StatReloader
+2023-08-18 18:41:13,636 - INFO - autoreload - 6895 - 4345574912 - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/settings.py changed, reloading.
+2023-08-18 18:41:14,114 - INFO - autoreload - 6913 - 4602648064 - autoreload.py - Watching for file changes with StatReloader
+2023-08-18 18:48:28,716 - INFO - autoreload - 6913 - 4602648064 - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/hmapp2/views.py changed, reloading.
+2023-08-18 18:48:29,252 - INFO - autoreload - 6995 - 4573730304 - autoreload.py - Watching for file changes with StatReloader
+2023-08-18 18:48:30,925 - WARNING - log - 6995 - 123145478246400 - log.py - Not Found: /
+2023-08-18 18:48:30,925 - WARNING - basehttp - 6995 - 123145478246400 - basehttp.py - "GET / HTTP/1.1" 404 2594
+2023-08-18 18:48:45,750 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:48:49,743 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:48:51,008 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:48:54,909 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:48:55,911 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:48:56,678 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:48:57,394 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:48:57,796 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:48:58,130 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:48:58,581 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:48:59,228 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:49:00,411 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:49:00,928 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:49:01,495 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:49:02,030 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:49:03,612 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:49:05,397 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:49:05,946 - INFO - basehttp - 6995 - 123145478246400 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:50:30,415 - INFO - autoreload - 6995 - 4573730304 - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/hmapp2/views.py changed, reloading.
+2023-08-18 18:50:31,030 - INFO - autoreload - 7027 - 4476089856 - autoreload.py - Watching for file changes with StatReloader
+2023-08-18 18:50:34,162 - ERROR - log - 7027 - 123145537658880 - log.py - Internal Server Error: /coin-flip/
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/hmapp2/views.py", line 19, in coin_flip
+    logger.log(f'Выпало {result}')
+TypeError: log() missing 1 required positional argument: 'msg'
+2023-08-18 18:50:34,163 - ERROR - basehttp - 7027 - 123145537658880 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 500 59825
+2023-08-18 18:50:43,350 - INFO - autoreload - 7027 - 4476089856 - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/hmapp2/views.py changed, reloading.
+2023-08-18 18:50:43,645 - INFO - autoreload - 7037 - 4526220800 - autoreload.py - Watching for file changes with StatReloader
+2023-08-18 18:50:45,997 - INFO - basehttp - 7037 - 123145459200000 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:51:52,389 - INFO - autoreload - 7037 - 4526220800 - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/hmapp2/views.py changed, reloading.
+2023-08-18 18:51:52,694 - INFO - autoreload - 7045 - 4527613440 - autoreload.py - Watching for file changes with StatReloader
+2023-08-18 18:51:55,835 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:52:05,451 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:52:06,351 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:52:06,771 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:52:07,171 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:52:07,488 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:52:07,771 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:52:08,071 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:52:08,358 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:52:08,671 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:52:08,938 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:52:09,186 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:52:09,471 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:52:09,738 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:52:14,338 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:52:14,837 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:52:15,472 - INFO - basehttp - 7045 - 123145414897664 - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:52:58,397 - INFO - autoreload - 7045 - 4527613440 - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/settings.py changed, reloading.
+2023-08-18 18:52:58,739 - INFO - autoreload - 7058 - autoreload.py - Watching for file changes with StatReloader
+2023-08-18 18:53:22,056 - INFO - autoreload - 7058 - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/settings.py changed, reloading.
+2023-08-18 18:53:22,370 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-18 18:53:27,112 - WARNING - log - log.py - Not Found: /
+2023-08-18 18:53:27,112 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2594
+2023-08-18 18:53:37,075 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:54:32,121 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/hmapp2/views.py changed, reloading.
+2023-08-18 18:54:32,404 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-18 18:54:34,901 - INFO - views - views.py - Выпало Решко
+2023-08-18 18:54:34,902 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:54:36,431 - INFO - views - views.py - Выпало Решко
+2023-08-18 18:54:36,431 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:54:38,398 - INFO - views - views.py - Выпало Орел
+2023-08-18 18:54:38,399 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:54:40,465 - INFO - views - views.py - Выпало Орел
+2023-08-18 18:54:40,466 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:54:41,884 - INFO - views - views.py - Выпало Орел
+2023-08-18 18:54:41,884 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:54:42,583 - INFO - views - views.py - Выпало Орел
+2023-08-18 18:54:42,584 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:54:42,887 - INFO - views - views.py - Выпало Орел
+2023-08-18 18:54:42,887 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:54:43,185 - INFO - views - views.py - Выпало Решко
+2023-08-18 18:54:43,185 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:54:43,485 - INFO - views - views.py - Выпало Решко
+2023-08-18 18:54:43,485 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:54:43,868 - INFO - views - views.py - Выпало Орел
+2023-08-18 18:54:43,868 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:54:44,116 - INFO - views - views.py - Выпало Орел
+2023-08-18 18:54:44,117 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:54:44,350 - INFO - views - views.py - Выпало Орел
+2023-08-18 18:54:44,350 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 8
+2023-08-18 18:54:44,652 - INFO - views - views.py - Выпало Решко
+2023-08-18 18:54:44,652 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:54:44,901 - INFO - views - views.py - Выпало Решко
+2023-08-18 18:54:44,902 - INFO - basehttp - basehttp.py - "GET /coin-flip/ HTTP/1.1" 200 10
+2023-08-18 18:58:24,221 - WARNING - log - log.py - Not Found: /coin_flip
+2023-08-18 18:58:24,283 - WARNING - basehttp - basehttp.py - "GET /coin_flip HTTP/1.1" 404 2639
+2023-08-20 09:48:36,573 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 09:48:38,514 - WARNING - log - log.py - Not Found: /
+2023-08-20 09:48:38,514 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2594
+2023-08-20 09:49:48,772 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 09:49:50,994 - WARNING - log - log.py - Not Found: /
+2023-08-20 09:49:50,995 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2594
+2023-08-20 09:49:52,991 - WARNING - log - log.py - Not Found: /
+2023-08-20 09:49:52,991 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2594
+2023-08-20 09:49:55,741 - WARNING - log - log.py - Not Found: /
+2023-08-20 09:49:55,742 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2594
+2023-08-20 09:50:47,423 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/urls.py changed, reloading.
+2023-08-20 09:50:47,730 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 09:50:50,101 - WARNING - log - log.py - Not Found: /
+2023-08-20 09:50:50,101 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2697
+2023-08-20 09:51:01,412 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 1
+2023-08-20 10:08:29,968 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/urls.py changed, reloading.
+2023-08-20 10:08:30,266 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:08:33,300 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 33
+2023-08-20 10:08:51,420 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 33
+2023-08-20 10:09:09,938 - WARNING - log - log.py - Not Found: /
+2023-08-20 10:09:09,939 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2697
+2023-08-20 10:09:24,280 - WARNING - log - log.py - Not Found: /
+2023-08-20 10:09:24,280 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2697
+2023-08-20 10:10:29,738 - WARNING - log - log.py - Not Found: /
+2023-08-20 10:10:29,739 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2697
+2023-08-20 10:10:31,667 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 33
+2023-08-20 10:12:35,319 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py changed, reloading.
+2023-08-20 10:12:35,640 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:12:39,851 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'HM_DJ_PY/Homework1/html/home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: HM_DJ_PY/Homework1/html/home.html
+2023-08-20 10:12:39,853 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74151
+2023-08-20 10:12:41,079 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'HM_DJ_PY/Homework1/html/home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: HM_DJ_PY/Homework1/html/home.html
+2023-08-20 10:12:41,080 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74151
+2023-08-20 10:13:16,236 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/settings.py changed, reloading.
+2023-08-20 10:13:16,589 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:13:16,917 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'HM_DJ_PY/Homework1/html/home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: HM_DJ_PY/Homework1/html/home.html
+2023-08-20 10:13:16,918 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74576
+2023-08-20 10:13:18,073 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'HM_DJ_PY/Homework1/html/home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: HM_DJ_PY/Homework1/html/home.html
+2023-08-20 10:13:18,074 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74576
+2023-08-20 10:13:19,040 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'HM_DJ_PY/Homework1/html/home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: HM_DJ_PY/Homework1/html/home.html
+2023-08-20 10:13:19,041 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74576
+2023-08-20 10:13:41,943 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py changed, reloading.
+2023-08-20 10:13:42,259 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:13:47,679 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'./home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ./home.html
+2023-08-20 10:13:47,680 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74212
+2023-08-20 10:13:54,030 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'../home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ./home.html
+2023-08-20 10:13:54,031 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74214
+2023-08-20 10:13:54,557 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py changed, reloading.
+2023-08-20 10:13:54,868 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:13:57,578 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'../home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../home.html
+2023-08-20 10:13:57,579 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 73071
+2023-08-20 10:14:07,642 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../home.html
+2023-08-20 10:14:07,643 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 73065
+2023-08-20 10:14:08,184 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py changed, reloading.
+2023-08-20 10:14:08,500 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:16:04,506 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/urls.py changed, reloading.
+2023-08-20 10:16:04,832 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:16:05,636 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+2023-08-20 10:16:05,637 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74192
+2023-08-20 10:16:06,526 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+2023-08-20 10:16:06,527 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74192
+2023-08-20 10:16:07,326 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+2023-08-20 10:16:07,326 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74192
+2023-08-20 10:17:32,222 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+2023-08-20 10:17:32,223 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74192
+2023-08-20 10:17:43,090 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+2023-08-20 10:17:43,091 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74192
+2023-08-20 10:18:15,785 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+2023-08-20 10:18:15,786 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74192
+2023-08-20 10:18:16,999 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+2023-08-20 10:18:17,000 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74192
+2023-08-20 10:18:17,766 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+2023-08-20 10:18:17,766 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74192
+2023-08-20 10:18:18,284 - ERROR - log - log.py - Internal Server Error: /hm1
+Traceback (most recent call last):
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py", line 18, in home
+    return render(reqwest,'home.html')
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/imacson/Desktop/python_project/HM_DJ_Py/venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+2023-08-20 10:18:18,285 - ERROR - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 500 74192
+2023-08-20 10:18:53,304 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py changed, reloading.
+2023-08-20 10:18:53,616 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:18:56,970 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:19:54,293 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py changed, reloading.
+2023-08-20 10:19:54,615 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:19:56,532 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:19:57,678 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:19:58,229 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:19:58,446 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:05,245 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/settings.py changed, reloading.
+2023-08-20 10:27:05,546 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:27:07,634 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:08,045 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:08,513 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:14,515 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:15,016 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:15,482 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:50,083 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/settings.py changed, reloading.
+2023-08-20 10:27:50,380 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:27:50,870 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:51,103 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:51,282 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:51,484 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:51,688 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:51,857 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:27:52,013 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:29:33,339 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/settings.py changed, reloading.
+2023-08-20 10:29:33,669 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:29:35,213 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:29:35,425 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:29:35,643 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:29:35,859 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:29:36,144 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:29:59,902 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:30:00,352 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:30:00,567 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:30:00,766 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:30:00,950 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:30:01,150 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:30:45,462 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py changed, reloading.
+2023-08-20 10:30:45,799 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:30:46,485 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:30:46,698 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:30:46,881 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:30:47,065 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:30:47,249 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:32:18,694 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/settings.py changed, reloading.
+2023-08-20 10:32:18,963 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:33:10,403 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/settings.py changed, reloading.
+2023-08-20 10:33:10,689 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:37:02,550 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:37:03,114 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:37:19,970 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:37:20,354 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:37:20,554 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:37:20,737 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:37:20,937 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:37:54,054 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/settings.py changed, reloading.
+2023-08-20 10:37:54,378 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 10:37:57,169 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:37:57,467 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:37:57,715 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:37:57,917 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 10:41:41,410 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/settings.py changed, reloading.
+2023-08-20 17:57:43,458 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 17:57:55,432 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:56,826 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:57,544 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:57,813 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:58,060 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:58,277 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:58,494 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:58,694 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:58,910 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:59,111 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:59,310 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:59,511 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:59,745 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:57:59,929 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:58:00,162 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 17:58:39,257 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 137
+2023-08-20 18:06:55,064 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 376
+2023-08-20 18:06:56,913 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 376
+2023-08-20 18:07:02,971 - WARNING - log - log.py - Not Found: /about_me.html
+2023-08-20 18:07:02,971 - WARNING - basehttp - basehttp.py - "GET /about_me.html HTTP/1.1" 404 2754
+2023-08-20 18:08:16,747 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py changed, reloading.
+2023-08-20 18:08:17,085 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:08:18,981 - WARNING - log - log.py - Not Found: /about_me.html
+2023-08-20 18:08:18,981 - WARNING - basehttp - basehttp.py - "GET /about_me.html HTTP/1.1" 404 2754
+2023-08-20 18:08:19,976 - WARNING - log - log.py - Not Found: /about_me.html
+2023-08-20 18:08:19,976 - WARNING - basehttp - basehttp.py - "GET /about_me.html HTTP/1.1" 404 2754
+2023-08-20 18:08:20,725 - WARNING - log - log.py - Not Found: /about_me.html
+2023-08-20 18:08:20,725 - WARNING - basehttp - basehttp.py - "GET /about_me.html HTTP/1.1" 404 2754
+2023-08-20 18:08:30,828 - WARNING - log - log.py - Not Found: /hm1/about_me.html
+2023-08-20 18:08:30,829 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me.html HTTP/1.1" 404 2988
+2023-08-20 18:09:48,028 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/urls.py changed, reloading.
+2023-08-20 18:09:48,351 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:09:55,181 - WARNING - log - log.py - Not Found: /hm1/about_me.html
+2023-08-20 18:09:55,181 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me.html HTTP/1.1" 404 3001
+2023-08-20 18:10:04,612 - WARNING - log - log.py - Not Found: /hm1/about_me.html
+2023-08-20 18:10:04,613 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me.html HTTP/1.1" 404 3001
+2023-08-20 18:10:09,223 - WARNING - log - log.py - Not Found: /hm1/about_me
+2023-08-20 18:10:09,229 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 404 2986
+2023-08-20 18:10:19,791 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/urls.py changed, reloading.
+2023-08-20 18:10:20,105 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:10:22,921 - WARNING - log - log.py - Not Found: /hm1/about_me
+2023-08-20 18:10:22,922 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 404 2986
+2023-08-20 18:10:25,032 - WARNING - log - log.py - Not Found: /hm1/about_me
+2023-08-20 18:10:25,032 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 404 2986
+2023-08-20 18:10:25,301 - WARNING - log - log.py - Not Found: /hm1/about_me
+2023-08-20 18:10:25,301 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 404 2986
+2023-08-20 18:10:25,549 - WARNING - log - log.py - Not Found: /hm1/about_me
+2023-08-20 18:10:25,550 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 404 2986
+2023-08-20 18:10:43,481 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/urls.py changed, reloading.
+2023-08-20 18:10:43,789 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:10:47,781 - WARNING - log - log.py - Not Found: /about_me
+2023-08-20 18:10:47,782 - WARNING - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 404 2739
+2023-08-20 18:11:02,481 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 376
+2023-08-20 18:11:05,859 - WARNING - log - log.py - Not Found: /about_me.html
+2023-08-20 18:11:05,859 - WARNING - basehttp - basehttp.py - "GET /about_me.html HTTP/1.1" 404 2754
+2023-08-20 18:12:23,234 - WARNING - log - log.py - Not Found: /about_me
+2023-08-20 18:12:23,235 - WARNING - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 404 2739
+2023-08-20 18:12:30,491 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 376
+2023-08-20 18:12:37,500 - WARNING - log - log.py - Not Found: /hm1/about_me
+2023-08-20 18:12:37,500 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 404 2986
+2023-08-20 18:13:14,206 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/urls.py changed, reloading.
+2023-08-20 18:13:14,516 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:13:16,275 - WARNING - log - log.py - Not Found: /hm1/about_me
+2023-08-20 18:13:16,275 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 404 2990
+2023-08-20 18:13:17,037 - WARNING - log - log.py - Not Found: /hm1/about_me
+2023-08-20 18:13:17,037 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 404 2990
+2023-08-20 18:13:37,897 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/urls.py changed, reloading.
+2023-08-20 18:13:38,196 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:13:40,582 - WARNING - log - log.py - Not Found: /hm1/about_me
+2023-08-20 18:13:40,583 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 404 2986
+2023-08-20 18:14:15,680 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py changed, reloading.
+2023-08-20 18:14:16,020 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:14:17,185 - WARNING - log - log.py - Not Found: /hm1/about_me
+2023-08-20 18:14:17,186 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 404 2986
+2023-08-20 18:14:19,056 - WARNING - log - log.py - Not Found: /hm1/about_me
+2023-08-20 18:14:19,057 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 404 2986
+2023-08-20 18:15:22,758 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/urls.py changed, reloading.
+2023-08-20 18:15:23,098 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:15:24,589 - INFO - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 200 376
+2023-08-20 18:15:27,959 - WARNING - log - log.py - Not Found: /hm1/about_me.html
+2023-08-20 18:15:27,960 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me.html HTTP/1.1" 404 3357
+2023-08-20 18:15:48,690 - INFO - basehttp - basehttp.py - "GET /hm1/about_me HTTP/1.1" 200 376
+2023-08-20 18:15:52,531 - WARNING - log - log.py - Not Found: /hm1/about_me.html
+2023-08-20 18:15:52,532 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me.html HTTP/1.1" 404 3357
+2023-08-20 18:16:05,632 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/urls.py changed, reloading.
+2023-08-20 18:16:05,947 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:16:07,390 - WARNING - log - log.py - Not Found: /hm1/about_me.html
+2023-08-20 18:16:07,391 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me.html HTTP/1.1" 404 3109
+2023-08-20 18:16:08,351 - WARNING - log - log.py - Not Found: /hm1/about_me.html
+2023-08-20 18:16:08,352 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me.html HTTP/1.1" 404 3109
+2023-08-20 18:16:12,086 - WARNING - log - log.py - Not Found: /hm1/about_me.html
+2023-08-20 18:16:12,086 - WARNING - basehttp - basehttp.py - "GET /hm1/about_me.html HTTP/1.1" 404 3109
+2023-08-20 18:16:17,200 - WARNING - log - log.py - Not Found: /about_me.html
+2023-08-20 18:16:17,201 - WARNING - basehttp - basehttp.py - "GET /about_me.html HTTP/1.1" 404 3102
+2023-08-20 18:16:30,347 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/urls.py changed, reloading.
+2023-08-20 18:16:30,676 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:16:34,018 - WARNING - log - log.py - Not Found: /about_me.html
+2023-08-20 18:16:34,018 - WARNING - basehttp - basehttp.py - "GET /about_me.html HTTP/1.1" 404 2754
+2023-08-20 18:16:46,081 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 376
+2023-08-20 18:18:06,171 - INFO - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 200 373
+2023-08-20 18:18:07,570 - WARNING - log - log.py - Not Found: /about_me()
+2023-08-20 18:18:07,570 - WARNING - basehttp - basehttp.py - "GET /about_me() HTTP/1.1" 404 2745
+2023-08-20 18:18:17,508 - WARNING - log - log.py - Not Found: /about_me()
+2023-08-20 18:18:17,509 - WARNING - basehttp - basehttp.py - "GET /about_me() HTTP/1.1" 404 2745
+2023-08-20 18:19:03,120 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/HM_DJ_PY/urls.py changed, reloading.
+2023-08-20 18:19:03,406 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:19:04,366 - WARNING - log - log.py - Not Found: /about_me()
+2023-08-20 18:19:04,366 - WARNING - basehttp - basehttp.py - "GET /about_me() HTTP/1.1" 404 2441
+2023-08-20 18:19:05,507 - WARNING - log - log.py - Not Found: /about_me()
+2023-08-20 18:19:05,507 - WARNING - basehttp - basehttp.py - "GET /about_me() HTTP/1.1" 404 2441
+2023-08-20 18:19:14,595 - WARNING - log - log.py - Not Found: /hm1
+2023-08-20 18:19:14,595 - WARNING - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 404 2420
+2023-08-20 18:19:16,428 - WARNING - log - log.py - Not Found: /hm1
+2023-08-20 18:19:16,428 - WARNING - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 404 2420
+2023-08-20 18:19:18,351 - WARNING - log - log.py - Not Found: /home
+2023-08-20 18:19:18,352 - WARNING - basehttp - basehttp.py - "GET /home HTTP/1.1" 404 2423
+2023-08-20 18:19:26,351 - WARNING - log - log.py - Not Found: /hm1
+2023-08-20 18:19:26,358 - WARNING - basehttp - basehttp.py - "GET /hm1 HTTP/1.1" 404 2420
+2023-08-20 18:19:27,059 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 371
+2023-08-20 18:19:29,358 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 366
+2023-08-20 18:19:32,064 - WARNING - log - log.py - Not Found: /home.html
+2023-08-20 18:19:32,064 - WARNING - basehttp - basehttp.py - "GET /home.html HTTP/1.1" 404 2438
+2023-08-20 18:19:35,249 - WARNING - log - log.py - Not Found: /home.html
+2023-08-20 18:19:35,249 - WARNING - basehttp - basehttp.py - "GET /home.html HTTP/1.1" 404 2438
+2023-08-20 18:20:02,920 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 366
+2023-08-20 18:20:22,961 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:20:24,797 - WARNING - log - log.py - Not Found: /home
+2023-08-20 18:20:24,797 - WARNING - basehttp - basehttp.py - "GET /home HTTP/1.1" 404 2423
+2023-08-20 18:20:28,632 - WARNING - log - log.py - Not Found: /home
+2023-08-20 18:20:28,632 - WARNING - basehttp - basehttp.py - "GET /home HTTP/1.1" 404 2423
+2023-08-20 18:20:51,490 - WARNING - log - log.py - Not Found: /home
+2023-08-20 18:20:51,490 - WARNING - basehttp - basehttp.py - "GET /home HTTP/1.1" 404 2423
+2023-08-20 18:20:52,490 - WARNING - log - log.py - Not Found: /home
+2023-08-20 18:20:52,490 - WARNING - basehttp - basehttp.py - "GET /home HTTP/1.1" 404 2423
+2023-08-20 18:20:55,373 - WARNING - log - log.py - Not Found: /home
+2023-08-20 18:20:55,374 - WARNING - basehttp - basehttp.py - "GET /home HTTP/1.1" 404 2423
+2023-08-20 18:20:59,641 - WARNING - log - log.py - Not Found: /home
+2023-08-20 18:20:59,641 - WARNING - basehttp - basehttp.py - "GET /home HTTP/1.1" 404 2423
+2023-08-20 18:21:27,743 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/urls.py changed, reloading.
+2023-08-20 18:21:28,048 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:21:29,288 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:21:34,031 - INFO - basehttp - basehttp.py - "GET /home HTTP/1.1" 200 371
+2023-08-20 18:21:37,382 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:21:38,032 - INFO - basehttp - basehttp.py - "GET /home HTTP/1.1" 200 371
+2023-08-20 18:21:51,644 - WARNING - log - log.py - Not Found: /
+2023-08-20 18:21:51,645 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2397
+2023-08-20 18:22:44,828 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/views.py changed, reloading.
+2023-08-20 18:22:45,135 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:22:45,468 - WARNING - log - log.py - Not Found: /
+2023-08-20 18:22:45,468 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2397
+2023-08-20 18:22:46,300 - WARNING - log - log.py - Not Found: /
+2023-08-20 18:22:46,302 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2397
+2023-08-20 18:22:46,960 - WARNING - log - log.py - Not Found: /
+2023-08-20 18:22:46,960 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2397
+2023-08-20 18:22:47,843 - WARNING - log - log.py - Not Found: /
+2023-08-20 18:22:47,843 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2397
+2023-08-20 18:23:25,241 - WARNING - log - log.py - Not Found: /
+2023-08-20 18:23:25,242 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2397
+2023-08-20 18:23:25,600 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/urls.py changed, reloading.
+2023-08-20 18:23:25,901 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2023-08-20 18:23:26,072 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 371
+2023-08-20 18:23:28,785 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:23:29,651 - INFO - basehttp - basehttp.py - "GET /home HTTP/1.1" 200 371
+2023-08-20 18:23:30,185 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:23:30,569 - INFO - basehttp - basehttp.py - "GET /home HTTP/1.1" 200 371
+2023-08-20 18:23:30,885 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:23:31,153 - INFO - basehttp - basehttp.py - "GET /home HTTP/1.1" 200 371
+2023-08-20 18:23:31,368 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:23:31,619 - INFO - basehttp - basehttp.py - "GET /home HTTP/1.1" 200 371
+2023-08-20 18:23:31,851 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:23:32,085 - INFO - basehttp - basehttp.py - "GET /home HTTP/1.1" 200 371
+2023-08-20 18:23:32,352 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:23:32,602 - INFO - basehttp - basehttp.py - "GET /home HTTP/1.1" 200 371
+2023-08-20 18:23:32,870 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:23:33,085 - INFO - basehttp - basehttp.py - "GET /home HTTP/1.1" 200 371
+2023-08-20 18:23:33,335 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:23:33,551 - INFO - basehttp - basehttp.py - "GET /home HTTP/1.1" 200 371
+2023-08-20 18:23:33,802 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:23:34,019 - INFO - basehttp - basehttp.py - "GET /home HTTP/1.1" 200 371
+2023-08-20 18:23:34,269 - INFO - basehttp - basehttp.py - "GET /about_me HTTP/1.1" 200 361
+2023-08-20 18:23:46,219 - INFO - autoreload - autoreload.py - /Users/imacson/Desktop/python_project/HM_DJ_Py/HM_DJ_PY/Homework1/urls.py changed, reloading.
+2023-08-20 18:23:46,566 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader

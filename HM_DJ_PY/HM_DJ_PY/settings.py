@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hmapp',
-    'hmapp2'
+    'hmapp2',
+    'Homework1'
 ]
 
 MIDDLEWARE = [
@@ -56,7 +57,7 @@ ROOT_URLCONF = 'HM_DJ_PY.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['tempfile'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -162,18 +163,19 @@ LOGGING = {
             'format': '{asctime} - {levelname} - {module} - {filename} - {message}',
             'style': '{',
         },
-
     },
     'handlers': {
         'console': {
             'class': 'logging.StreamHandler',
             'formatter': 'main_format'
+
         },
         'file': {
             'class': 'logging.FileHandler',
             'formatter': 'main_format',
             'filename': 'info.log',
         },
+
     },
     'loggers': {
         'django': {
@@ -185,10 +187,12 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
-        'myapp2': {
+        'Honework1': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
         },
+
     }
+
 }
