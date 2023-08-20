@@ -21,6 +21,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', include('hmapp.urls')),
     # path('', include('hmapp2.urls')),
-    path('', include('Homework1.urls')),
-
 ]

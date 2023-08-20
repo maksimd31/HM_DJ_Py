@@ -154,45 +154,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #             }, },
 #     }
 # }
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-
-    'formatters': {  # формат логгирования
-        'main_format': {
-            'format': '{asctime} - {levelname} - {module} - {filename} - {message}',
-            'style': '{',
-        },
-    },
-    'handlers': {
-        'console': {
-            'class': 'logging.StreamHandler',
-            'formatter': 'main_format'
-
-        },
-        'file': {
-            'class': 'logging.FileHandler',
-            'formatter': 'main_format',
-            'filename': 'info.log',
-        },
-
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['console', 'file'],
-            'level': 'INFO',
-        },
-        'myapp': {
-            'handlers': ['console', 'file'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-        'Honework1': {
-            'handlers': ['console', 'file'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-
-    }
-
-}
+LOGGING = {}
